@@ -156,7 +156,7 @@
         hjPqsMcrEB7OqAs8UwUSw7vuF4n34WWkDJSqAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="removeNoteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="deleteNoteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
         4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEiSURBVFhH7ZZP
@@ -181,40 +181,6 @@
         Fbp5qnwGl9gJqNCtRzXgAayOzbjETGAPV9AQVcBW52b6oIzCum6ZwKmoTNLhwrohRAXsLA69tpAvaIOZ
         y1iEdWMrLKOhErJyC/9jEtr1+lEql6BdynpQClXbKvmjojWh6rXKHqF/Oy246KOZH60LbZm/YQ1i2YTu
         0cG2ZdGOqfpRx/OP0PFc5fUOtGZ0SHmO+6jvcOFk2QlIse5EmBlpqQAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="deleteNoteButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEiSURBVFhH7ZZP
-        DsFAFMbLwk6IS7iCG7AXB5DYOBAbsRe3sGEjLsLGVuLP94WXvLSvNZ22aUm/5JeO187Mb6ZDBEZG4ARu
-        4OmBpPW5psoUPIA1sCuSMZi9m27pgiuwBk2DZALuwFliCKwB0yKhAD87S0iHrEj0eHytc5CYIgXIV4m8
-        BQZgG2ID+sBM3gKp8zcC4W234OuJJC8BFzhXJLXAzwhcjJqQdE/jLbAHHbBQNWEN2mCnanF4CZwBJ2ea
-        YAXkHtusMXyGz+q+Ybx3gKuUiRqAOxGuLYHVV+MtQPRqedVtvStJZBIgetWM68qFQgSsgxlHJoFSX4F1
-        4KyDafXVeAlU4mt4BD1gHTjuBP9ZH1QtDm8BUupPcV7UArVAVQSC4AU7O87nGYwd5AAAAABJRU5ErkJg
-        gg==
-</value>
-  </data>
-  <data name="editNoteButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFISURBVFhH7dY9
-        SgRREATgifQMCh5Dgz3CBmqiYOIhvMVeRTYxMRYEDyCCmJpvoolGWjXsQPOome5+8xYTCz5kfT9dO2ww
-        3TZHsIYP+KlwAUP2tn/D4fANqIujbIE7SJXgN1eXZtgC/JwqUfvYrbIAhUvYi2qpAnQP+zAZe6DWWAFy
-        S5QHatgCt8I1jEZdmGULpKMuzPrzAk+gHr11AzLqwl1gCRm1eRf+C6xARm1u6R0WMBp1qJVXOIDJqIMt
-        lMNP4BE+4QWuoI86PNcbHMKQJXxBua8vUf5zrvKbn8E3qL3PIBdqZYYT30XkQo3scHoAuZBVM5zrxyAX
-        M6I/OIvDz6GP2hA1ezijNkU0Gc6ojZ5mwxm12XMJQ6I/uFOQUQc89hVs1nBGHfJMvYZbo4/dRh30RAqE
-        hjPqsMcrEB7OqAs8UwUSw7vuF4n34WWkDJSqAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="addNoteButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADgSURBVFhH7ZLN
-        CQIxEIVz8mwXtmAHehcLELx4tSqxmG3CCrwK/ryHDoTsxPzsiK7kwYezODv52IlTsgQduIB7BZLJ67co
-        G3AD2uBcJCuwfZZ5mYIz0IaWIFmDK8iWWABtYCkSCvA5W0JeGIrEn8e17sDbfFKAJCWsBebgGHAAM6DG
-        WqA4fyMQfnYNrqcXK4EceFYvTWB0Aicgl4q11hPDRIAHS1hrPTGaQJWAv3OyBxLW/n+pO1ElwMG5Ya82
-        QxinwNdXEMKDJKy1nhhNwETAvxOpnYeYCAyhCTSBXxFw7gFFS9d9jpXY8wAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="addNoteToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

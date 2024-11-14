@@ -52,6 +52,7 @@ partial class EditNoteForm
         noteNameTextBox.Name = "noteNameTextBox";
         noteNameTextBox.Size = new Size(566, 27);
         noteNameTextBox.TabIndex = 0;
+        noteNameTextBox.KeyDown += NoteNameTextBox_KeyDown;
         // 
         // noteNameLabel
         // 
@@ -91,7 +92,9 @@ partial class EditNoteForm
         // 
         // noteCreateDateTimePicker
         // 
+        noteCreateDateTimePicker.CustomFormat = "dd.MM.yy HH:mm:ss";
         noteCreateDateTimePicker.Enabled = false;
+        noteCreateDateTimePicker.Format = DateTimePickerFormat.Custom;
         noteCreateDateTimePicker.Location = new Point(124, 125);
         noteCreateDateTimePicker.Name = "noteCreateDateTimePicker";
         noteCreateDateTimePicker.Size = new Size(184, 27);
@@ -108,7 +111,9 @@ partial class EditNoteForm
         // 
         // noteModifyDateTimePicker
         // 
+        noteModifyDateTimePicker.CustomFormat = "dd.MM.yy HH:mm:ss";
         noteModifyDateTimePicker.Enabled = false;
+        noteModifyDateTimePicker.Format = DateTimePickerFormat.Custom;
         noteModifyDateTimePicker.Location = new Point(446, 128);
         noteModifyDateTimePicker.Name = "noteModifyDateTimePicker";
         noteModifyDateTimePicker.Size = new Size(184, 27);
@@ -133,6 +138,7 @@ partial class EditNoteForm
         okButton.TabIndex = 3;
         okButton.Text = "OK";
         okButton.UseVisualStyleBackColor = true;
+        okButton.Click += OkButton_Click;
         // 
         // cancelButton
         // 
@@ -147,10 +153,10 @@ partial class EditNoteForm
         // noteNameErrorProvider
         // 
         noteNameErrorProvider.ContainerControl = this;
+        noteNameErrorProvider.RightToLeft = true;
         // 
         // EditNoteForm
         // 
-        AcceptButton = okButton;
         AutoScaleDimensions = new SizeF(8F, 20F);
         AutoScaleMode = AutoScaleMode.Font;
         CancelButton = cancelButton;
