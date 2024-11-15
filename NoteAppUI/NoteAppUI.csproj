@@ -8,7 +8,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
 	<ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
 	<ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+	<ApplicationIcon>NoteApp.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="NoteApp.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\NoteApp\NoteApp.csproj" />
@@ -28,5 +35,11 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+
+	<Target Name="PublishInstaller" AfterTargets="Publish">
+		<Message Text="Compile installer" Importance="High" />
+		<Exec Command="ISCC.exe $(ProjectDir)InstallScripts\noteapp.iss" WorkingDirectory="C:\Program Files (x86)\Inno Setup 6\" />
+		<Message Text="Created installer" Importance="High" />
+	</Target>
 
 </Project>
