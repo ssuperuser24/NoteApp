@@ -53,7 +53,7 @@ public class Note : ICloneable, IValidatableObject, IEquatable<Note>
             yield return new ValidationResult($"{nameof(Name)} is required", [nameof(Name)]);
         }
 
-        if (Name.Length > NameMaxLength)
+        if (Name?.Length > NameMaxLength)
         {
             yield return new ValidationResult($"{nameof(Name)} should be less or equal {NameMaxLength} chars", [nameof(Name)]);
         }

@@ -10,6 +10,7 @@ namespace NoteAppUI
         public MainForm()
         {
             TryExecute(() => { _project = ProjectManager.Load(); });
+            _project ??= new();
             InitializeComponent();
         }
 

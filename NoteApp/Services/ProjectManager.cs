@@ -11,7 +11,7 @@ public static class ProjectManager
     /// <summary>
     /// Project file location
     /// </summary>
-    private static readonly string PROJECT_LOCATION = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}\\NoteApp.notes";
+    public static readonly string PROJECT_LOCATION = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}\\NoteApp.notes";
 
     /// <summary>
     /// Load project from file or create new
